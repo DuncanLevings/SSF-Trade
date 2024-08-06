@@ -1,0 +1,1176 @@
+league:
+  name: settlers
+
+clean_cluster_name:
+  LARGE: Large Cluster Jewel
+  MEDIUM: Medium Cluster Jewel
+  SMALL: Small Cluster Jewel
+
+clean_flask_name:
+  AMETHYST: Amethyst Flask
+  AQUA: Aquamarine Flask
+  BASALT: Basalt Flask
+  BISMUTH: Bismuth Flask
+  DIAMOND: Diamond Flask
+  GOLD: Gold Flask
+  GRANITE: Granite Flask
+  IRON: Iron Flask
+  JADE: Jade Flask
+  QUARTZ: Quartz Flask
+  QUICK: Quicksilver Flask
+  RUBY: Ruby Flask
+  SAPPHIRE: Sapphire Flask
+  SILVER: Silver Flask
+  STIBNITE: Stibnite Flask
+  SULPHUR: Sulphur Flask
+  TOPAZ: Topaz Flask
+
+rarity:
+  UNIQUE: Unique
+
+sub_class:
+  BLUEPRINT: Blueprints
+  BREACHSTONE: Breachstone
+  CATALYST: Catalyst
+  CHARM: Charm
+  CONTRACT: Contracts
+  DELIRIUM: Delirium Orb
+  EMBLEM: Emblem
+  ESSENCE: Essence
+  FOSSIL: Fossil
+  HEIST1: Heist Cloak
+  HEIST2: Heist Brooche
+  HEIST3: Heist Tool
+  HEIST4: Heist Gear
+  INCUBATOR: Incubator
+  LOGBOOK: Expedition Logbooks
+  OIL: Oil
+  PIECE: Piece
+  RELIC: Relic
+  REPORT: Scouting Report
+  SCARAB: Scarab
+  SENTINEL: Sentinel
+  SPLINTER: Splinter
+  TINCTURE: Tincture
+  TRINKET: Trinket
+  VAULT: Vault Key
+  ICHOR: Ichor
+  EMBER: Ember
+  TAINTED: Tainted
+  LIFEFORCE: Lifeforce
+  BLESSING: Blessing
+  TATTOO: Tattoo
+  OMEN: Omen
+  RUNE: Rune
+
+unique_class:
+  AMULET: Amulets
+  AXE1: One Hand Axes
+  AXE2: Two Hand Axes
+  BELT: Belts
+  BODY: Body Armours
+  BOOTS: Boots
+  BOW: Bows
+  CLAW: Claws
+  CONTRACT: Contract
+  DAGGER: Daggers
+  FLASK1: Life Flasks
+  FLASK2: Mana Flasks
+  FLASK3: Utility Flasks
+  FLASK4: Hybrid Flasks
+  GLOVES: Gloves
+  HELM: Helmets
+  JEWEL: Jewels
+  MACE1: Sceptres
+  MACE2: One Hand Maces
+  MACE3: Two Hand Maces
+  MAP: Maps
+  QUIVER: Quivers
+  RELIC: Relics
+  RING: Rings
+  RUNE_DAGGER: Rune Daggers
+  STAFF: Staves
+  SWORD1: One Hand Swords
+  SWORD2: Two Hand Swords
+  SWORD3: Thrusting One Hand Swords
+  WAND: Wands
+  WARSTAFF: Warstaves
+  SHIELD: Shields
+  TINCTURE: Tinctures
+
+check_unique:
+  VOICES: Voices
+  WATCHER_EYE: Watcher's Eye
+  FLESH: Forbidden Flesh
+  FLAME: Forbidden Flame
+  MEGALOMANIAC: Megalomaniac
+
+influence:
+  SHAPER: Shaper
+  ELDER: Elder
+  WARLORD: Warlord
+  CRUSADER: Crusader
+  HUNTER: Hunter
+  REDEEMER: Redeemer
+
+boss_map:
+  ENSLAVER: The Enslaver
+  ERADICATOR: The Eradicator
+  CONSTRICTOR: The Constrictor
+  PURIFIER: The Purifier
+  BARAN: Baran's Citadel
+  VERITANIA: Veritania's Citadel
+  HEZMIN: Al-Hezmin's Citadel
+  DROX: Drox's Citadel
+
+item_name:
+  RESIDENCE_MAP: Residence Map
+  UNDERGROUND_SEA_MAP: Underground Sea Map
+  CASTLE_RUINS_MAP: Castle Ruins Map
+  PALACE_MAP: Palace Map
+  MUD_GEYSER_MAP: Mud Geyser Map
+  SEPULCHRE_MAP: Sepulchre Map
+  ARID_LAKE_MAP: Arid Lake Map
+  GEODE_MAP: Geode Map
+  WATERWAYS_MAP: Waterways Map
+  LAIR_MAP: Lair Map
+  IVORY_TEMPLE_MAP: Ivory Temple Map
+  MAUSOLEUM_MAP: Mausoleum Map
+  MAO_KUN: Mao Kun
+  DESERT_SPRING_MAP: Desert Spring Map
+  FIELDS_MAP: Fields Map
+  COURTYARD_MAP: Courtyard Map
+  PHANTASMAGORIA_MAP: Phantasmagoria Map
+  BRAMBLE_VALLEY_MAP: Bramble Valley Map
+  ACTONS_NIGHTMARE: Acton's Nightmare
+  REEF_MAP: Reef Map
+  SHIPYARD_MAP: Shipyard Map
+  DARK_FOREST_MAP: Dark Forest Map
+  WHAKA_WAIRUA_TUAHU: Whakawairua Tuahu
+  THE_TWILIGHT_TEMPLE: The Twilight Temple
+  ALTERED_DISTANT_MEMORY: Altered Distant Memorie
+  LABORATORY_MAP: Laboratory Map
+  FORBIDDEN_WOODS_MAP: Forbidden Woods Map
+  MINERAL_POOLS_MAP: Mineral Pools Map
+  PIER_MAP: Pier Map
+  WASTE_POOL_MAP: Waste Pool Map
+  CALDERA_MAP: Caldera Map
+  ORCHARD_MAP: Orchard Map
+  PIT_MAP: Pit Map
+  PRECINCT_MAP: Precinct Map
+  OBAS_CURSED_TROVE: Oba's Cursed Trove
+  PENINSULA_MAP: Peninsula Map
+  LAIR_OF_THE_HYDRA_MAP: Lair of the Hydra Map
+  PRIMORDIAL_BLOCKS_MAP: Primordial Blocks Map
+  GROTTO_MAP: Grotto Map
+  DEFILED_CATHEDRAL_MAP: Defiled Cathedral Map
+  ARENA_MAP: Arena Map
+  TOXIC_SEWER_MAP: Toxic Sewer Map
+  VAAL_PYRAMID_MAP: Vaal Pyramid Map
+  ACADEMY_MAP: Academy Map
+  DRY_SEA_MAP: Dry Sea Map
+  CRIMSON_TEMPLE_MAP: Crimson Temple Map
+  GRAVEYARD_MAP: Graveyard Map
+  FOUNDRY_MAP: Foundry Map
+  UNDERGROUND_RIVER_MAP: Underground River Map
+  THE_VINKTAR_SQUARE: The Vinktar Squares
+  CRIMSON_TOWNSHIP_MAP: Crimson Township Map
+  VAULT_MAP: Vault Map
+  GRAVE_TROUGH_MAP: Grave Trough Map
+  MESA_MAP: Mesa Map
+  REPLICA_PILLARS_OF_ARUN: Replica Pillars of Arun
+  CORTEX: Cortexes
+  FACTORY_MAP: Factory Map
+  PRIMORDIAL_POOL_MAP: Primordial Pool Map
+  SPIDER_FOREST_MAP: Spider Forest Map
+  FROZEN_CABINS_MAP: Frozen Cabins Map
+  COURTHOUSE_MAP: Courthouse Map
+  REPLICA_POORJOYS_ASYLUM: Replica Poorjoy's Asylum
+  CEMETERY_MAP: Cemetery Map
+  THE_PUTRID_CLOISTER: The Putrid Cloister
+  TWISTED_DISTANT_MEMORY: Twisted Distant Memorie
+  ACID_CAVERNS_MAP: Acid Caverns Map
+  CAGE_MAP: Cage Map
+  MAZE_OF_THE_MINOTAUR_MAP: Maze of the Minotaur Map
+  BEACH_MAP: Beach Map
+  GHETTO_MAP: Ghetto Map
+  SIEGE_MAP: Siege Map
+  REPLICA_CORTEX: Replica Cortexe
+  ANCIENT_CITY_MAP: Ancient City Map
+  SHRINE_MAP: Shrine Map
+  SUNKEN_CITY_MAP: Sunken City Map
+  SUMMIT_MAP: Summit Map
+  BASILICA_MAP: Basilica Map
+  CRATER_MAP: Crater Map
+  CANYON_MAP: Canyon Map
+  COLD_RIVER_MAP: Cold River Map
+  CELLS_MAP: Cells Map
+  OVERGROWN_RUIN_MAP: Overgrown Ruin Map
+  STAGNATION_MAP: Stagnation Map
+  TROPICAL_ISLAND_MAP: Tropical Island Map
+  RELIC_CHAMBERS_MAP: Relic Chambers Map
+  DESERT_MAP: Desert Map
+  FUNGAL_HOLLOW_MAP: Fungal Hollow Map
+  THICKET_MAP: Thicket Map
+  VILLA_MAP: Villa Map
+  FORKING_RIVER_MAP: Forking River Map
+  THE_COWARDS_TRIAL: The Coward's Trial
+  PILLARS_OF_ARUN: Pillars of Arun
+  DEATH_AND_TAXES: Death and Taxe
+  ICEBERG_MAP: Iceberg Map
+  CAER_BLAIDD_WOLFPACKS_DEN: Caer Blaidd, Wolfpack's Den
+  SULPHUR_VENTS_MAP: Sulphur Vents Map
+  HAUNTED_MANSION_MAP: Haunted Mansion Map
+  MAELSTROM_OF_CHAOS: Maelström of Chao
+  TERRACE_MAP: Terrace Map
+  SILO_MAP: Silo Map
+  ARMOURY_MAP: Armoury Map
+  CRYSTAL_ORE_MAP: Crystal Ore Map
+  FLOODED_MINE_MAP: Flooded Mine Map
+  MUSEUM_MAP: Museum Map
+  RACECOURSE_MAP: Racecourse Map
+  LOOKOUT_MAP: Lookout Map
+  GLACIER_MAP: Glacier Map
+  HALLOWED_GROUND: Hallowed Ground
+  NECROPOLIS_MAP: Necropolis Map
+  PROMENADE_MAP: Promenade Map
+  CURSED_CRYPT_MAP: Cursed Crypt Map
+  WHARF_MAP: Wharf Map
+  ARCADE_MAP: Arcade Map
+  DORYANIS_MACHINARIUM: Doryani's Machinarium
+  HALL_OF_GRANDMASTERS: Hall of Grandmaster
+  VOLCANO_MAP: Volcano Map
+  EXCAVATION_MAP: Excavation Map
+  PORT_MAP: Port Map
+  STRAND_MAP: Strand Map
+  ARACHNID_NEST_MAP: Arachnid Nest Map
+  BELFRY_MAP: Belfry Map
+  ATOLL_MAP: Atoll Map
+  MARSHES_MAP: Marshes Map
+  MAZE_MAP: Maze Map
+  FORGE_OF_THE_PHOENIX_MAP: Forge of the Phoenix Map
+  LAVA_LAKE_MAP: Lava Lake Map
+  OLMEC_SANCTUM: Olmec's Sanctum
+  INFUSED_BEACHHEAD: Infused Beachhead
+  BARROWS_MAP: Barrows Map
+  COVES_MAP: Coves Map
+  MALFORMATION_MAP: Malformation Map
+  DUNES_MAP: Dunes Map
+  VAAL_TEMPLE_MAP: Vaal Temple Map
+  PLATEAU_MAP: Plateau Map
+  COLOSSEUM_MAP: Colosseum Map
+  REWRITTEN_DISTANT_MEMORY: Rewritten Distant Memorie
+  BOG_MAP: Bog Map
+  GARDENS_MAP: Gardens Map
+  LAVA_CHAMBER_MAP: Lava Chamber Map
+  WASTELAND_MAP: Wasteland Map
+  COLONNADE_MAP: Colonnade Map
+  VAULTS_OF_ATZIRI: Vaults of Atziri
+  CORE_MAP: Core Map
+  LIGHTHOUSE_MAP: Lighthouse Map
+  ALLEYWAYS_MAP: Alleyways Map
+  DUNGEON_MAP: Dungeon Map
+  AUGMENTED_DISTANT_MEMORY: Augmented Distant Memorie
+  BAZAAR_MAP: Bazaar Map
+  PARK_MAP: Park Map
+  RAMPARTS_MAP: Ramparts Map
+  TOWER_MAP: Tower Map
+  PEN_MAP: Pen Map
+  CHANNEL_MAP: Channel Map
+  INFESTED_VALLEY_MAP: Infested Valley Map
+  CONSERVATORY_MAP: Conservatory Map
+  SHORE_MAP: Shore Map
+  PLAZA_MAP: Plaza Map
+  MOON_TEMPLE_MAP: Moon Temple Map
+  SCRIPTORIUM_MAP: Scriptorium Map
+  BONE_CRYPT_MAP: Bone Crypt Map
+  BURIAL_CHAMBERS_MAP: Burial Chambers Map
+  ESTUARY_MAP: Estuary Map
+  ARSENAL_MAP: Arsenal Map
+  CITY_SQUARE_MAP: City Square Map
+  CARCASS_MAP: Carcass Map
+  TEMPLE_MAP: Temple Map
+  POORJOYS_ASYLUM: Poorjoy's Asylum
+  DIG_MAP: Dig Map
+  CORAL_RUINS_MAP: Coral Ruins Map
+  CHATEAU_MAP: Chateau Map
+  ASHEN_WOOD_MAP: Ashen Wood Map
+  OVERGROWN_SHRINE_MAP: Overgrown Shrine Map
+  PIT_OF_THE_CHIMERA_MAP: Pit of the Chimera Map
+  ARACHNID_TOMB_MAP: Arachnid Tomb Map
+  SPIDER_LAIR_MAP: Spider Lair Map
+  LEYLINE_MAP: Leyline Map
+  JUNGLE_VALLEY_MAP: Jungle Valley Map
+  GOLD_RING: Gold Ring
+  RATCHETING_RING: Ratcheting Ring
+  BONE_RING: Bone Ring
+  SAPPHIRE_RING: Sapphire Ring
+  COGWORK_RING: Cogwork Ring
+  UNSET_RING: Unset Ring
+  IRON_RING: Iron Ring
+  PRISMATIC_RING: Prismatic Ring
+  DIAMOND_RING: Diamond Ring
+  STEEL_RING: Steel Ring
+  PAUA_RING: Paua Ring
+  VERMILLION_RING: Vermillion Ring
+  CERULEAN_RING: Cerulean Ring
+  TOPAZ_RING: Topaz Ring
+  CORAL_RING: Coral Ring
+  OPAL_RING: Opal Ring
+  AMETHYST_RING: Amethyst Ring
+  TWO_STONE_RING: Two-Stone Ring
+  MOONSTONE_RING: Moonstone Ring
+  RUBY_RING: Ruby Ring
+  BREACH_RING: Breach Ring
+  HELICAL_RING: Helical Ring
+  MANIFOLD_RING: Manifold Ring
+  GEODESIC_RING: Geodesic Ring
+  IOLITE_RING: Iolite Ring
+  COMPOSITE_RING: Composite Ring
+  TURQUOISE_AMULET: Turquoise Amulet
+  PRIMAL_SKULL_TALISMAN: Primal Skull Talisman
+  ROTFEATHER_TALISMAN: Rotfeather Talisman
+  ASTROLABE_AMULET: Astrolabe Amulet
+  DEADHAND_TALISMAN: Deadhand Talisman
+  GREATWOLF_TALISMAN: Greatwolf Talisman
+  MARBLE_AMULET: Marble Amulet
+  SPLITNEWT_TALISMAN: Splitnewt Talisman
+  WRITHING_TALISMAN: Writhing Talisman
+  SIMPLEX_AMULET: Simplex Amulet
+  CLUTCHING_TALISMAN: Clutching Talisman
+  ROT_HEAD_TALISMAN: Rot Head Talisman
+  THREE_HANDS_TALISMAN: Three Hands Talisman
+  BLACK_MAW_TALISMAN: Black Maw Talisman
+  AGATE_AMULET: Agate Amulet
+  WERECLAW_TALISMAN: Wereclaw Talisman
+  ONYX_AMULET: Onyx Amulet
+  CITRINE_AMULET: Citrine Amulet
+  SPINEFUSE_TALISMAN: Spinefuse Talisman
+  MONKEY_PAW_TALISMAN: Monkey Paw Talisman
+  JADE_AMULET: Jade Amulet
+  MANDIBLE_TALISMAN: Mandible Talisman
+  AVIAN_TWINS_TALISMAN: Avian Twins Talisman
+  CORAL_AMULET: Coral Amulet
+  RUBY_AMULET: Ruby Amulet
+  THREE_RAT_TALISMAN: Three Rat Talisman
+  UNDYING_FLESH_TALISMAN: Undying Flesh Talisman
+  LAPIS_AMULET: Lapis Amulet
+  GOLD_AMULET: Gold Amulet
+  BONESPIRE_TALISMAN: Bonespire Talisman
+  CHRYSALIS_TALISMAN: Chrysalis Talisman
+  ASHSCALE_TALISMAN: Ashscale Talisman
+  LONE_ANTLER_TALISMAN: Lone Antler Talisman
+  SEAGLASS_AMULET: Seaglass Amulet
+  AMBER_AMULET: Amber Amulet
+  FANGJAW_TALISMAN: Fangjaw Talisman
+  BREAKRIB_TALISMAN: Breakrib Talisman
+  HORNED_TALISMAN: Horned Talisman
+  JET_AMULET: Jet Amulet
+  BLUE_PEARL_AMULET: Blue Pearl Amulet
+  DEEP_ONE_TALISMAN: Deep One Talisman
+  HEXCLAW_TALISMAN: Hexclaw Talisman
+  MONKEY_TWINS_TALISMAN: Monkey Twins Talisman
+  PAUA_AMULET: Paua Amulet
+  LONGTOOTH_TALISMAN: Longtooth Talisman
+  VAAL_MASK: Vaal Mask
+  SOLARIS_CIRCLET: Solaris Circlet
+  ROYAL_BURGONET: Royal Burgonet
+  CRUSADER_HELMET: Crusader Helmet
+  PLAGUE_MASK: Plague Mask
+  CALLOUS_MASK: Callous Mask
+  SAMNITE_HELMET: Samnite Helmet
+  BONE_HELMET: Bone Helmet
+  PRAETOR_CROWN: Praetor Crown
+  IRON_HAT: Iron Hat
+  LUNARIS_CIRCLET: Lunaris Circlet
+  GALE_CROWN: Gale Crown
+  FLUTED_BASCINET: Fluted Bascinet
+  URSINE_PELT: Ursine Pelt
+  EZOMYTE_BURGONET: Ezomyte Burgonet
+  SECUTOR_HELM: Secutor Helm
+  GREAT_HELMET: Great Helmet
+  BARBUTE_HELMET: Barbute Helmet
+  FENCER_HELM: Fencer Helm
+  IMP_CROWN: Imp Crown
+  TRIBAL_CIRCLET: Tribal Circlet
+  HUBRIS_CIRCLET: Hubris Circlet
+  ZEALOT_HELMET: Zealot Helmet
+  RUNIC_CROWN: Runic Crown
+  RUNIC_HELM: Runic Helm
+  LION_PELT: Lion Pelt
+  RUSTED_COIF: Rusted Coif
+  HUNTER_HOOD: Hunter Hood
+  VINE_CIRCLET: Vine Circlet
+  SORROW_MASK: Sorrow Mask
+  ETERNAL_BURGONET: Eternal Burgonet
+  MAGISTRATE_CROWN: Magistrate Crown
+  SCARE_MASK: Scare Mask
+  NECROMANCER_CIRCLET: Necromancer Circlet
+  DEICIDE_MASK: Deicide Mask
+  STEEL_CIRCLET: Steel Circlet
+  PENITENT_MASK: Penitent Mask
+  SOLDIER_HELMET: Soldier Helmet
+  PROPHET_CROWN: Prophet Crown
+  VISOREDSALLET: Visored Sallet
+  LEATHER_HOOD: Leather Hood
+  GILDED_SALLET: Gilded Sallet
+  ATONEMENT_MASK: Atonement Mask
+  NIGHTMARE_BASCINET: Nightmare Bascinet
+  SALLET: Sallet
+  REGICIDE_MASK: Regicide Mask
+  CONE_HELMET: Cone Helmet
+  LEATHER_CAP: Leather Cap
+  BONE_CIRCLET: Bone Circlet
+  TRICORNE: Tricorne
+  IRON_MASK: Iron Mask
+  SINNER_TRICORNE: Sinner Tricorne
+  PIG_FACED_BASCINET: Pig-Faced Bascinet
+  IRON_CIRCLET: Iron Circlet
+  SIEGE_HELMET: Siege Helmet
+  BATTERED_HELM: Battered Helm
+  ARCHDEMON_CROWN: Archdemon Crown
+  NOBLE_TRICORNE: Noble Tricorne
+  REAVER_HELMET: Reaver Helmet
+  WOLF_PELT: Wolf Pelt
+  DEMON_CROWN: Demon Crown
+  RAVEN_MASK: Raven Mask
+  RUNIC_CREST: Runic Crest
+  BLIZZARD_CROWN: Blizzard Crown
+  GLADIATOR_HELMET: Gladiator Helmet
+  HARLEQUIN_MASK: Harlequin Mask
+  MIND_CAGE: Mind Cage
+  GREAT_CROWN: Great Crown
+  AVENTAIL_HELMET: Aventail 
+  SILKEN_HOOD: Silken Hood
+  TORTURE_CAGE: Torture Cage
+  WINTER_CROWN: Winter Crown
+  CLOSE_HELMET: Close Helmet
+  GOLDEN_MASK: Golden Mask
+  LACQUERED_HELMET: Lacquered Helmet
+  FESTIVAL_MASK: Festival Mask
+  SAINTLY_CHAINMAIL: Saintly Chainmail
+  FIELD_LAMELLAR: Field Lamellar
+  FULL_PLATE: Full Plate
+  LACQUERED_GARB: Lacquered Garb
+  FULL_WYRMSCALE: Full Wyrmscale
+  GLADIATOR_PLATE: Gladiator Plate
+  DEVOUT_CHAINMAIL: Devout Chainmail
+  CRIMSON_RAIMENT: Crimson Raiment
+  PADDED_JACKET: Padded Jacket
+  BLOOD_RAIMENT: Blood Raiment
+  LORICATED_RINGMAIL: Loricated Ringmail
+  CRUSADER_CHAINMAIL: Crusader Chainmail
+  GRASPING_MAIL: Grasping Mail
+  FRONTIER_LEATHER: Frontier Leather
+  HUSSAR_BRIGANDINE: Hussar Brigandine
+  ADVANCE_GUARD: Advance Guard
+  SIMPLE_ROBE: Simple Robe
+  VARNISHED_COAT: Varnished Coat
+  CONQUEST_CHAINMAIL: Conquest Chainmail
+  CHAIN_HAUBERK: Chain Hauberk
+  SCALE_VEST: Scale Vest
+  STRAPPED_LEATHER: Strapped Leather
+  LATTICED_RINGMAIL: Latticed Ringmail
+  QUILTED_JACKET: Quilted Jacket
+  SCHOLARS_ROBE: Scholar's Robe
+  ZODIAC_LEATHER: Zodiac Leather
+  CHESTPLATE: Chestplate
+  EELSKIN_TUNIC: Eelskin Tunic
+  SCALE_DOUBLET: Scale Doublet
+  CORONAL_LEATHER: Coronal Leather
+  SILKEN_GARB: Silken Garb
+  GENERALS_BRIGANDINE: General's Brigandine
+  OATH_OF_THE_MAJI: Oath of the Maji
+  FULL_LEATHER: Full Leather
+  ESCAPE_ARTIST: Escape Artist
+  SLEEK_COAT: Sleek Coat
+  WYRMSCALE_DOUBLET: Wyrmscale Doublet
+  SUN_LEATHER: Sun Leather
+  ART_OF_THE_GLADIATOR: Art of the Gladiator
+  WAR_PLATE: War Plate
+  TUKOHAMA_WARS_HERALD: Tukohama, War's Herald
+  HOLY_CHAINMAIL: Holy Chainmail
+  TRIUMPHANT_LAMELLAR: Triumphant Lamellar
+  SENTINEL_JACKET: Sentinel Jacket
+  LORDLY_PLATE: Lordly Plate
+  OILED_VEST: Oiled Vest
+  CHAINMAIL_VEST: Chainmail Vest
+  UNBREAKABLE: Unbreakable
+  WIDOWSILK_ROBE: Widowsilk Robe
+  SCARLET_RAIMENT: Scarlet Raiment
+  SHARKSKIN_TUNIC: Sharkskin Tunic
+  CABALIST_REGALIA: Cabalist Regalia
+  DESTROYER_REGALIA: Destroyer Regalia
+  SUN_PLATE: Sun Plate
+  SOLDIERS_BRIGANDINE: Soldier's Brigandine
+  SAINTS_HAUBERK: Saint's Hauberk
+  EXQUISITE_LEATHER: Exquisite Leather
+  MAJESTIC_PLATE: Majestic Plate
+  SILKEN_VEST: Silken Vest
+  DRAGONSCALE_DOUBLET: Dragonscale Doublet
+  CHAINMAIL_DOUBLET: Chainmail Doublet
+  BRONZE_PLATE: Bronze Plate
+  FULL_CHAINMAIL: Full Chainmail
+  COPPER_PLATE: Copper Plate
+  WILD_LEATHER: Wild Leather
+  BONE_ARMOUR: Bone Armour
+  GLORIOUS_LEATHER: Glorious Leather
+  RINGMAIL_COAT: Ringmail Coat
+  COMMANDERS_BRIGANDINE: Commander's Brigandine
+  ELEGANT_RINGMAIL: Elegant Ringmail
+  OCCULTISTS_VESTMENT: Occultist's Vestment
+  SILK_ROBE: Silk Robe
+  SAVANTS_ROBE: Savant's Robe
+  FULL_DRAGONSCALE: Full Dragonscale
+  BATTLE_LAMELLAR: Battle Lamellar
+  PADDED_VEST: Padded Vest
+  ASTRAL_PLATE: Astral Plate
+  SAGES_ROBE: Sage's Robe
+  CUTTHROATS_GARB: Cutthroat's Garb
+  CONJURERS_VESTMENT: Conjurer's Vestment
+  DESTINY_LEATHER: Destiny Leather
+  THIEFS_GARB: Thief's Garb
+  ASSASSINS_GARB: Assassin's Garb
+  ORNATE_RINGMAIL: Ornate Ringmail
+  CHAINMAIL_TUNIC: Chainmail Tunic
+  ARENA_PLATE: Arena Plate
+  GOLDEN_PLATE: Golden Plate
+  BATTLE_PLATE: Battle Plate
+  OILED_COAT: Oiled Coat
+  CARNAL_ARMOUR: Carnal Armour
+  COLOSSEUM_PLATE: Colosseum Plate
+  INFANTRY_BRIGANDINE: Infantry Brigandine
+  LIGHT_BRIGANDINE: Light Brigandine
+  MAGES_VESTMENT: Mage's Vestment
+  PLATE_VEST: Plate Vest
+  WAXED_GARB: Waxed Garb
+  DESERT_BRIGANDINE: Desert Brigandine
+  BUCKSKIN_TUNIC: Buckskin Tunic
+  SPIDERSILK_ROBE: Spidersilk Robe
+  FULL_RINGMAIL: Full Ringmail
+  CRUSADER_PLATE: Crusader Plate
+  GLORIOUS_PLATE: Glorious Plate
+  SACRIFICIAL_GARB: Sacrificial Garb
+  CRYPT_ARMOUR: Crypt Armour
+  NECROMANCER_SILKS: Necromancer Silk
+  SADIST_GARB: Sadist Garb
+  FULL_SCALE_ARMOUR: Full Scale Armour
+  SILKEN_WRAP: Silken Wrap
+  SHABBY_JERKIN: Shabby Jerkin
+  VAAL_REGALIA: Vaal Regalia
+  LEYLINE_GLOVES: Leyline Glove
+  MESH_GLOVES: Mesh Glove
+  GOATHIDE_GLOVES: Goathide Glove
+  WRAPPED_MITTS: Wrapped Mitt
+  BRONZE_GAUNTLETS: Bronze Gauntlet
+  RAWHIDE_GLOVES: Rawhide Glove
+  ANCIENT_GAUNTLETS: Ancient Gauntlet
+  FISHSCALE_GAUNTLETS: Fishscale Gauntlet
+  WYRMSCALE_GAUNTLETS: Wyrmscale Gauntlet
+  SLINK_GLOVES: Slink Glove
+  VELVET_GLOVES: Velvet Glove
+  ARCANIST_GLOVES: Arcanist Glove
+  SHARKSKIN_GLOVES: Sharkskin Glove
+  SOLDIER_GLOVES: Soldier Glove
+  IRON_GAUNTLETS: Iron Gauntlet
+  SOUTHSWING_GLOVES: Southswing Glove
+  GRIPPED_GLOVES: Gripped Glove
+  AMBUSH_MITTS: Ambush Mitt
+  ASSASSINS_MITTS: Assassin's Mitt
+  CHAIN_GLOVES: Chain Glove
+  DRAGONSCALE_GAUNTLETS: Dragonscale Gauntlet
+  SORCERER_GLOVES: Sorcerer Glove
+  CARNAL_MITTS: Carnal Mitt
+  NUBUCK_GLOVES: Nubuck Glove
+  STEALTH_GLOVES: Stealth Glove
+  CONJURER_GLOVES: Conjurer Glove
+  CRUSADER_GLOVES: Crusader Glove
+  NEXUS_GLOVES: Nexus Glove
+  VAAL_GAUNTLETS: Vaal Gauntlet
+  RINGMAIL_GLOVES: Ringmail Glove
+  GOLIATH_GAUNTLETS: Goliath Gauntlet
+  LEGION_GLOVES: Legion Glove
+  TRAPSETTER_GLOVES: Trapsetter Glove
+  STEELSCALE_GAUNTLETS: Steelscale Gauntlet
+  CLASPED_MITTS: Clasped Mitt
+  TRAPPER_MITTS: Trapper Mitt
+  WOOL_GLOVES: Wool Glove
+  EELSKIN_GLOVES: Eelskin Glove
+  HYDRASCALE_GAUNTLETS: Hydrascale Gauntlet
+  SHAGREEN_GLOVES: Shagreen Glove
+  AETHERWIND_GLOVES: Aetherwind Glove
+  ZEALOT_GLOVES: Zealot Glove
+  STRAPPED_MITTS: Strapped Mitt
+  PRESERVING_GAUNTLETS: Preserving Gauntlet
+  BRONZESCALE_GAUNTLETS: Bronzescale Gauntlet
+  THWARTING_GAUNTLETS: Thwarting Gauntlet
+  GUARDING_GAUNTLETS: Guarding Gauntlet
+  SATIN_GLOVES: Satin Glove
+  MURDER_MITTS: Murder Mitt
+  RUNIC_GAGES: Runic Gage
+  ANTIQUE_GAUNTLETS: Antique Gauntlet
+  SPIKED_GLOVES: Spiked Glove
+  SAMITE_GLOVES: Samite Glove
+  STEEL_GAUNTLETS: Steel Gauntlet
+  RUNIC_GAUNTLETS: Runic Gauntlet
+  PLATED_GAUNTLETS: Plated Gauntlet
+  IRONSCALE_GAUNTLETS: Ironscale Gauntlet
+  RUNIC_GLOVES: Runic Glove
+  GAUCHE_GLOVES: Gauche Glove
+  RIVETED_GLOVES: Riveted Glove
+  APOTHECARYS_GLOVES: Apothecary's Glove
+  DEERSKIN_GLOVES: Deerskin Glove
+  FINGERLESS_SILK_GLOVES: Fingerless Silk Glove
+  SERPENTSCALE_GAUNTLETS: Serpentscale Gauntlet
+  EMBROIDERED_GLOVES: Embroidered Glove
+  SILK_GLOVES: Silk Glove
+  TITAN_GAUNTLETS: Titan Gauntlet
+  FUGITIVE_BOOTS: Fugitive Boot
+  SERPENTSCALE_BOOTS: Serpentscale Boot
+  STEEL_GREAVES: Steel Greave
+  CRUSADER_BOOTS: Crusader Boot
+  LEGION_BOOTS: Legion Boot
+  VAAL_GREAVES: Vaal Greave
+  ANTIQUE_GREAVES: Antique Greave
+  WRAPPED_BOOTS: Wrapped Boot
+  DEERSKIN_BOOTS: Deerskin Boot
+  SLINK_BOOTS: Slink Boot
+  BRONZESCALE_BOOTS: Bronzescale Boot
+  CHAIN_BOOTS: Chain Boot
+  NUBUCK_BOOTS: Nubuck Boot
+  PLATED_GREAVES: Plated Greave
+  VELVET_SLIPPERS: Velvet Slipper
+  CLOUDWHISPER_BOOTS: Cloudwhisper Boot
+  ARCANIST_SLIPPERS: Arcanist Slipper
+  STRAPPED_BOOTS: Strapped Boot
+  RUNIC_SABATONS: Runic Sabaton
+  ZEALOT_BOOTS: Zealot Boot
+  RUNIC_GREAVES: Runic Greave
+  SAMITE_SLIPPERS: Samite Slipper
+  RUNIC_SOLLERETS: Runic Solleret
+  SCHOLAR_BOOTS: Scholar Boot
+  BASEMETAL_TREADS: Basemetal Tread
+  RAWHIDE_BOOTS: Rawhide Boot
+  STORMRIDER_BOOTS: Stormrider Boot
+  STEALTH_BOOTS: Stealth Boot
+  DUSKWALK_SLIPPERS: Duskwalk Slipper
+  RIVETED_BOOTS: Riveted Boot
+  TWO_TONED_BOOTS: Two-Toned Boot
+  SHACKLED_BOOTS: Shackled Boot
+  WOOL_SHOES: Wool Shoe
+  AMBUSH_BOOTS: Ambush Boot
+  ANCIENT_GREAVES: Ancient Greave
+  STEELSCALE_BOOTS: Steelscale Boot
+  MESH_BOOTS: Mesh Boot
+  WINDBREAK_BOOTS: Windbreak Boot
+  GOATHIDE_BOOTS: Goathide Boot
+  SATIN_SLIPPERS: Satin Slipper
+  DARKSTEEL_TREADS: Darksteel Tread
+  CARNAL_BOOTS: Carnal Boot
+  CLASPED_BOOTS: Clasped Boot
+  EELSKIN_BOOTS: Eelskin Boot
+  SOLDIER_BOOTS: Soldier Boot
+  SHAGREEN_BOOTS: Shagreen Boot
+  REINFORCED_GREAVES: Reinforced Greave
+  NIGHTWIND_SLIPPERS: Nightwind Slipper
+  SHARKSKIN_BOOTS: Sharkskin Boot
+  SORCERER_BOOTS: Sorcerer Boot
+  DREAMQUEST_SLIPPERS: Dreamquest Slipper
+  TRAPPER_BOOTS: Trapper Boot
+  CONJURER_BOOTS: Conjurer Boot
+  WYRMSCALE_BOOTS: Wyrmscale Boot
+  IRONSCALE_BOOTS: Ironscale Boot
+  DRAGONSCALE_BOOTS: Dragonscale Boot
+  MURDER_BOOTS: Murder Boot
+  BRIMSTONE_TREADS: Brimstone Tread
+  GOLIATH_GREAVES: Goliath Greave
+  RINGMAIL_BOOTS: Ringmail Boot
+  TITAN_GREAVES: Titan Greave
+  SILK_SLIPPERS: Silk Slipper
+  LEATHERSCALE_BOOTS: Leatherscale Boot
+  IRON_GREAVES: Iron Greave
+  HYDRASCALE_BOOTS: Hydrascale Boot
+  ASSASSINS_BOOTS: Assassin's Boot
+  RUSTIC_SASH: Rustic Sashe
+  MICRO_DISTILLERY_BELT: Micro-Distillery Belt
+  CRYSTAL_BELT: Crystal Belt
+  LEATHER_BELT: Leather Belt
+  STUDDED_BELT: Studded Belt
+  MECHANICAL_BELT: Mechanical Belt
+  CHAIN_BELT: Chain Belt
+  HEAVY_BELT: Heavy Belt
+  VANGUARD_BELT: Vanguard Belt
+  CLOTH_BELT: Cloth Belt
+  STYGIAN_VISE: Stygian Vise
+  WALNUT_SPIRIT_SHIELD: Walnut Spirit Shield
+  ELEGANT_ROUND_SHIELD: Elegant Round Shield
+  STUDDED_ROUND_SHIELD: Studded Round Shield
+  ALLOYED_SPIKED_SHIELD: Alloyed Spiked Shield
+  TEAK_ROUND_SHIELD: Teak Round Shield
+  IRONWOOD_BUCKLER: Ironwood Buckler
+  JINGLING_SPIRIT_SHIELD: Jingling Spirit Shield
+  STEEL_KITE_SHIELD: Steel Kite Shield
+  SPLENDID_ROUND_SHIELD: Splendid Round Shield
+  CRIMSON_ROUND_SHIELD: Crimson Round Shield
+  HAMMERED_BUCKLER: Hammered Buckler
+  EBONY_TOWER_SHIELD: Ebony Tower Shield
+  SUPREME_SPIKED_SHIELD: Supreme Spiked Shield
+  LAMINATED_KITE_SHIELD: Laminated Kite Shield
+  THORIUM_SPIRIT_SHIELD: Thorium Spirit Shield
+  POLISHED_SPIKED_SHIELD: Polished Spiked Shield
+  CRUSADER_BUCKLER: Crusader Buckler
+  REINFORCED_KITE_SHIELD: Reinforced Kite Shield
+  LAYERED_KITE_SHIELD: Layered Kite Shield
+  MAPLE_ROUND_SHIELD: Maple Round Shield
+  COMPOUND_SPIKED_SHIELD: Compound Spiked Shield
+  VAAL_BUCKLER: Vaal Buckler
+  PINNACLE_TOWER_SHIELD: Pinnacle Tower Shield
+  IVORY_SPIRIT_SHIELD: Ivory Spirit Shield
+  HEAT_ATTUNED_TOWER_SHIELD: Heat-attuned Tower Shield
+  VAAL_SPIRIT_SHIELD: Vaal Spirit Shield
+  MOSAIC_KITE_SHIELD: Mosaic Kite Shield
+  GIRDED_TOWER_SHIELD: Girded Tower Shield
+  REDWOOD_SPIKED_SHIELD: Redwood Spiked Shield
+  BRANDED_KITE_SHIELD: Branded Kite Shield
+  CHAMPION_KITE_SHIELD: Champion Kite Shield
+  ENAMELED_BUCKLER: Enameled Buckler
+  MAGMATIC_TOWER_SHIELD: Magmatic Tower Shield
+  FOSSILISED_SPIRIT_SHIELD: Fossilised Spirit Shield
+  OAK_BUCKLER: Oak Buckler
+  SHAGREEN_TOWER_SHIELD: Shagreen Tower Shield
+  BAROQUE_ROUND_SHIELD: Baroque Round Shield
+  BATTLE_BUCKLER: Battle Buckler
+  DRIFTWOOD_SPIKED_SHIELD: Driftwood Spiked Shield
+  PINE_BUCKLER: Pine Buckler
+  PAINTED_BUCKLER: Painted Buckler
+  HARMONIC_SPIRIT_SHIELD: Harmonic Spirit Shield
+  TWIG_SPIRIT_SHIELD: Twig Spirit Shield
+  ALDER_SPIKED_SHIELD: Alder Spiked Shield
+  CHIMING_SPIRIT_SHIELD: Chiming Spirit Shield
+  GILDED_BUCKLER: Gilded Buckler
+  ETCHED_KITE_SHIELD: Etched Kite Shield
+  BURNISHED_SPIKED_SHIELD: Burnished Spiked Shield
+  MAHOGANY_TOWER_SHIELD: Mahogany Tower Shield
+  COLOSSAL_TOWER_SHIELD: Colossal Tower Shield
+  DEFENCES_WITH_SHIELD: Defences with Shield
+  SPINY_ROUND_SHIELD: Spiny Round Shield
+  CORRUGATED_BUCKLER: Corrugated Buckler
+  SUBSUMING_SPIRIT_SHIELD: Subsuming Spirit Shield
+  CARDINAL_ROUND_SHIELD: Cardinal Round Shield
+  ENERGY_SHIELD: Energy Shield
+  TARNISHED_SPIRIT_SHIELD: Tarnished Spirit Shield
+  COPPER_TOWER_SHIELD: Copper Tower Shield
+  YEW_SPIRIT_SHIELD: Yew Spirit Shield
+  EZOMYTE_TOWER_SHIELD: Ezomyte Tower Shield
+  TRANSFER_ATTUNED_SPIRIT_SHIELD: Transfer-attuned Spirit Shield
+  CRESTED_TOWER_SHIELD: Crested Tower Shield
+  BRASS_SPIRIT_SHIELD: Brass Spirit Shield
+  LINDEN_KITE_SHIELD: Linden Kite Shield
+  GOATHIDE_BUCKLER: Goathide Buckler
+  EZOMYTE_SPIKED_SHIELD: Ezomyte Spiked Shield
+  CEREMONIAL_KITE_SHIELD: Ceremonial Kite Shield
+  SPIKED_ROUND_SHIELD: Spiked Round Shield
+  COMMAND_OF_STEEL: Command of Steel
+  SOVEREIGN_SPIKED_SHIELD: Sovereign Spiked Shield
+  BUCKSKIN_TOWER_SHIELD: Buckskin Tower Shield
+  CORRODED_TOWER_SHIELD: Corroded Tower Shield
+  TITANIUM_SPIRIT_SHIELD: Titanium Spirit Shield
+  CEDAR_TOWER_SHIELD: Cedar Tower Shield
+  REINFORCED_TOWER_SHIELD: Reinforced Tower Shield
+  MIRRORED_SPIKED_SHIELD: Mirrored Spiked Shield
+  SCARLET_ROUND_SHIELD: Scarlet Round Shield
+  ROTTED_ROUND_SHIELD: Rotted Round Shield
+  ANCIENT_SPIRIT_SHIELD: Ancient Spirit Shield
+  GOLDEN_BUCKLER: Golden Buckler
+  SPIKED_BUNDLE: Spiked Bundle
+  BRONZE_TOWER_SHIELD: Bronze Tower Shield
+  IMPERIAL_BUCKLER: Imperial Buckler
+  PAINTED_TOWER_SHIELD: Painted Tower Shield
+  SPLINTERED_TOWER_SHIELD: Splintered Tower Shield
+  ORNATE_SPIKED_SHIELD: Ornate Spiked Shield
+  ATTACK_DAMAGE_WITH_SHIELD: Attack Damage with Shield
+  COLD_ATTUNED_BUCKLER: Cold-attuned Buckler
+  ANGELIC_KITE_SHIELD: Angelic Kite Shield
+  PLANK_KITE_SHIELD: Plank Kite Shield
+  LACEWOOD_SPIRIT_SHIELD: Lacewood Spirit Shield
+  FIR_ROUND_SHIELD: Fir Round Shield
+  BONE_SPIRIT_SHIELD: Bone Spirit Shield
+  ARCHON_KITE_SHIELD: Archon Kite Shield
+  POLAR_BUCKLER: Polar Buckler
+  WAR_BUCKLER: War Buckler
+  LACQUERED_BUCKLER: Lacquered Buckler
+  RAWHIDE_TOWER_SHIELD: Rawhide Tower Shield
+  SHADOW_SCEPTRE: Shadow Sceptre
+  CARNAL_SCEPTRE: Carnal Sceptre
+  BRONZE_SCEPTRE: Bronze Sceptre
+  HORNED_SCEPTRE: Horned Sceptre
+  CRYSTAL_SCEPTRE: Crystal Sceptre
+  DARKWOOD_SCEPTRE: Darkwood Sceptre
+  ABYSSAL_SCEPTRE: Abyssal Sceptre
+  TYRANTS_SEKHEM: Tyrant's Sekhem
+  ALTERNATING_SCEPTRE: Alternating Sceptre
+  OSCILLATING_SCEPTRE: Oscillating Sceptre
+  DRIFTWOOD_SCEPTRE: Driftwood Sceptre
+  VAAL_SCEPTRE: Vaal Sceptre
+  VOID_SCEPTRE: Void Sceptre
+  SAMBAR_SCEPTRE: Sambar Sceptre
+  RITUAL_SCEPTRE: Ritual Sceptre
+  GRINNING_FETISH: Grinning Fetishe
+  STABILISING_SCEPTRE: Stabilising Sceptre
+  PLATINUM_SCEPTRE: Platinum Sceptre
+  STAG_SCEPTRE: Stag Sceptre
+  OPAL_SCEPTRE: Opal Sceptre
+  LEAD_SCEPTRE: Lead Sceptre
+  OCHRE_SCEPTRE: Ochre Sceptre
+  SEKHEM: Sekhem
+  IRON_SCEPTRE: Iron Sceptre
+  KARUI_SCEPTRE: Karui Sceptre
+  BLOOD_SCEPTRE: Blood Sceptre
+  QUARTZ_SCEPTRE: Quartz Sceptre
+  ROYAL_SCEPTRE: Royal Sceptre
+  PLATED_MAUL: Plated Maul
+  FLANGED_MACE: Flanged Mace
+  CRACK_MACE: Crack Mace
+  ORNATE_MACE: Ornate Mace
+  LEGION_HAMMER: Legion Hammer
+  PILEDRIVER: Piledriver
+  BATTLE_HAMMER: Battle Hammer
+  TRIBAL_MAUL: Tribal Maul
+  TERROR_MAUL: Terror Maul
+  PETRIFIED_CLUB: Petrified Club
+  IMPERIAL_MAUL: Imperial Maul
+  JAGGED_MAUL: Jagged Maul
+  GAVEL: Gavel
+  STONE_HAMMER: Stone Hammer
+  WAR_HAMMER: War Hammer
+  MEATGRINDER: Meatgrinder
+  SPIKED_CLUB: Spiked Club
+  WYRM_MACE: Wyrm Mace
+  FLARE_MACE: Flare Mace
+  MORNING_STAR: Morning Star
+  BEHEMOTH_MACE: Behemoth Mace
+  DRAGON_MACE: Dragon Mace
+  BLADED_MACE: Bladed Mace
+  ROCK_BREAKER: Rock Breaker
+  NIGHTMARE_MACE: Nightmare Mace
+  DRIFTWOOD_MAUL: Driftwood Maul
+  ANCESTRAL_CLUB: Ancestral Club
+  BOOM_MACE: Boom Mace
+  DREAD_MAUL: Dread Maul
+  CEREMONIAL_MACE: Ceremonial Mace
+  PERNACH: Pernache
+  AURIC_MACE: Auric Mace
+  SPINY_MAUL: Spiny Maul
+  DRIFTWOOD_CLUB: Driftwood Club
+  TENDERIZER: Tenderizer
+  COLOSSUS_MALLET: Colossus Mallet
+  STEELHEAD: Steelhead
+  PHANTOM_MACE: Phantom Mace
+  SOLAR_MAUL: Solar Maul
+  KARUI_MAUL: Karui Maul
+  FRIGHT_MAUL: Fright Maul
+  TRIBAL_CLUB: Tribal Club
+  SLEDGEHAMMER: Sledgehammer
+  BRASS_MAUL: Brass Maul
+  GREAT_MALLET: Great Mallet
+  MALLET: Mallet
+  DREAM_MACE: Dream Mace
+  TOTEMIC_MAUL: Totemic Maul
+  BARBED_CLUB: Barbed Club
+  CORONAL_MAUL: Coronal Maul
+  ARMING_AXE: Arming Axe
+  DESPOT_AXE: Despot Axe
+  CHEST_SPLITTER: Chest Splitter
+  JASPER_AXE: Jasper Axe
+  CEREMONIAL_AXE: Ceremonial Axe
+  RUSTED_HATCHET: Rusted Hatchet
+  POLEAXE: Poleaxe
+  HEADSMAN_AXE: Headsman Axe
+  SIEGE_AXE: Siege Axe
+  WAR_AXE: War Axe
+  EZOMYTE_AXE: Ezomyte Axe
+  CLEAVER: Cleaver
+  TOMAHAWK: Tomahawk
+  LABRYS: Labryse
+  VOID_AXE: Void Axe
+  APEX_CLEAVER: Apex Cleaver
+  VAAL_AXE: Vaal Axe
+  STONE_AXE: Stone Axe
+  WRAITH_AXE: Wraith Axe
+  DOUBLE_AXE: Double Axe
+  BUTCHER_AXE: Butcher Axe
+  RUNIC_HATCHET: Runic Hatchet
+  ABYSSAL_AXE: Abyssal Axe
+  HONED_CLEAVER: Honed Cleaver
+  PRIME_CLEAVER: Prime Cleaver
+  ROYAL_AXE: Royal Axe
+  ENGRAVED_HATCHET: Engraved Hatchet
+  KARUI_AXE: Karui Axe
+  BROAD_AXE: Broad Axe
+  SUNDERING_AXE: Sundering Axe
+  WRIST_CHOPPER: Wrist Chopper
+  SPECTRAL_AXE: Spectral Axe
+  TIMBER_AXE: Timber Axe
+  SHADOW_AXE: Shadow Axe
+  VAAL_HATCHET: Vaal Hatchet
+  ETCHED_HATCHET: Etched Hatchet
+  MALTREATMENT_AXE: Maltreatment Axe
+  INFERNAL_AXE: Infernal Axe
+  FLESHRIPPER: Fleshripper
+  REAVER_AXE: Reaver Axe
+  DECORATIVE_AXE: Decorative Axe
+  PSYCHOTIC_AXE: Psychotic Axe
+  TALON_AXE: Talon Axe
+  JADE_HATCHET: Jade Hatchet
+  JASPER_CHOPPER: Jasper Chopper
+  DISAPPROBATION_AXE: Disapprobation Axe
+  GILDED_AXE: Gilded Axe
+  JADE_CHOPPER: Jade Chopper
+  BOARDING_AXE: Boarding Axe
+  KARUI_CHOPPER: Karui Chopper
+  WOODSPLITTER: Woodsplitter
+  DAGGER_AXE: Dagger Axe
+  NOBLE_AXE: Noble Axe
+  COURTESAN_SWORD: Courtesan Sword
+  FOOTMAN_SWORD: Footman Sword
+  BATTLE_SWORD: Battle Sword
+  VAAL_RAPIER: Vaal Rapier
+  PRIMEVAL_RAPIER: Primeval Rapier
+  DRAGOON_SWORD: Dragoon Sword
+  GRACEFUL_SWORD: Graceful Sword
+  SABRE: Sabre
+  GLADIUS: Gladius
+  HIGHLAND_BLADE: Highland Blade
+  GEMSTONE_SWORD: Gemstone Sword
+  REBUKING_BLADE: Rebuking Blade
+  LION_SWORD: Lion Sword
+  TWO_HANDED_SWORD: Two-Handed Sword
+  WRAITH_SWORD: Wraith Sword
+  GRAPPLER: Grappler
+  ELEGANT_FOIL: Elegant Foil
+  ETERNAL_SWORD: Eternal Sword
+  LONGSWORD: Longsword
+  ELEGANT_SWORD: Elegant Sword
+  DUSK_BLADE: Dusk Blade
+  SMALLSWORD: Smallsword
+  ENGRAVED_GREATSWORD: Engraved Greatsword
+  TIGER_HOOK: Tiger Hook
+  SPECTRAL_SWORD: Spectral Sword
+  CAPRICIOUS_SPIRITBLADE: Capricious Spiritblade
+  ORNATE_SWORD: Ornate Sword
+  SPIRALED_FOIL: Spiraled Foil
+  SERRATED_FOIL: Serrated Foil
+  THORN_RAPIER: Thorn Rapier
+  CORSAIR_SWORD: Corsair Sword
+  ESTOC: Estoc
+  JEWELLED_FOIL: Jewelled Foil
+  ANTIQUE_RAPIER: Antique Rapier
+  VARISCITE_BLADE: Variscite Blade
+  FANCY_FOIL: Fancy Foil
+  BASKET_RAPIER: Basket Rapier
+  BANISHING_BLADE: Banishing Blade
+  CUTLASS: Cutlass
+  VAAL_GREATSWORD: Vaal Greatsword
+  TEMPERED_FOIL: Tempered Foil
+  WAR_SWORD: War Sword
+  TWILIGHT_BLADE: Twilight Blade
+  RUSTED_SWORD: Rusted Sword
+  ANCIENT_SWORD: Ancient Sword
+  HEADMANS_SWORD: Headman's Sword
+  TIGER_SWORD: Tiger Sword
+  BLASTING_BLADE: Blasting Blade
+  JAGGED_FOIL: Jagged Foil
+  HOOK_SWORD: Hook Sword
+  WYRMBONE_RAPIER: Wyrmbone Rapier
+  DRAGONBONE_RAPIER: Dragonbone Rapier
+  REAVER_SWORD: Reaver Sword
+  ETCHED_GREATSWORD: Etched Greatsword
+  CURVED_BLADE: Curved Blade
+  EZOMYTE_BLADE: Ezomyte Blade
+  PECORARO: Pecoraro
+  BASTARD_SWORD: Bastard Sword
+  ANARCHIC_SPIRITBLADE: Anarchic Spiritblade
+  BASELARD: Baselard
+  BROAD_SWORD: Broad Sword
+  WHALEBONE_RAPIER: Whalebone Rapier
+  LEGION_SWORD: Legion Sword
+  BATTERED_FOIL: Battered Foil
+  CORRODED_BLADE: Corroded Blade
+  VAAL_BLADE: Vaal Blade
+  COPPER_SWORD: Copper Sword
+  EXQUISITE_BLADE: Exquisite Blade
+  APEX_RAPIER: Apex Rapier
+  BURNISHED_FOIL: Burnished Foil
+  HARPY_RAPIER: Harpy Rapier
+  BUTCHER_SWORD: Butcher Sword
+  LITHE_BLADE: Lithe Blade
+  RUSTED_SPIKE: Rusted Spike
+  INFERNAL_SWORD: Infernal Sword
+  FICKLE_SPIRITBLADE: Fickle Spiritblade
+  ELDER_SWORD: Elder Sword
+  MIDNIGHT_BLADE: Midnight Blade
+  SNIPER_BOW: Sniper Bow
+  DECIMATION_BOW: Decimation Bow
+  GROVE_BOW: Grove Bow
+  RANGER_BOW: Ranger Bow
+  REFLEX_BOW: Reflex Bow
+  ROYAL_BOW: Royal Bow
+  CRUDE_BOW: Crude Bow
+  IVORY_BOW: Ivory Bow
+  SHORT_BOW: Short Bow
+  RECURVE_BOW: Recurve Bow
+  THICKET_BOW: Thicket Bow
+  MARAKETH_BOW: Maraketh Bow
+  SOLARINE_BOW: Solarine Bow
+  BONE_BOW: Bone Bow
+  HIGHBORN_BOW: Highborn Bow
+  COMPOUND_BOW: Compound Bow
+  IMPERIAL_BOW: Imperial Bow
+  STEELWOOD_BOW: Steelwood Bow
+  HARBINGER_BOW: Harbinger Bow
+  HEDRON_BOW: Hedron Bow
+  DEATH_BOW: Death Bow
+  CITADEL_BOW: Citadel Bow
+  DECURVE_BOW: Decurve Bow
+  SPINE_BOW: Spine Bow
+  FOUNDRY_BOW: Foundry Bow
+  LONG_BOW: Long Bow
+  COMPOSITE_BOW: Composite Bow
+  ASSASSIN_BOW: Assassin Bow
+  NOBLE_CLAW: Noble Claw
+  TIMEWORN_CLAW: Timeworn Claw
+  DOUBLE_CLAW: Double Claw
+  HELLIONS_PAW: Hellion's Paw
+  MALIGN_FANGS: Malign Fangs
+  PREHISTORIC_CLAW: Prehistoric Claw
+  GUT_RIPPER: Gut Ripper
+  TWIN_CLAW: Twin Claw
+  GOUGER: Gouger
+  SPARKLING_CLAW: Sparkling Claw
+  IMPERIAL_CLAW: Imperial Claw
+  AWL: Awl
+  BLINDER: Blinder
+  VAAL_CLAW: Vaal Claw
+  VOID_FANGS: Void Fangs
+  CATS_PAW: Cat's Paw
+  NAILED_FIST: Nailed Fist
+  FRIGHT_CLAW: Fright Claw
+  EAGLE_CLAW: Eagle Claw
+  EYE_GOUGER: Eye Gouger
+  SHARKTOOTH_CLAW: Sharktooth Claw
+  GEMINI_CLAW: Gemini Claw
+  TIGERS_PAW: Tiger's Paw
+  SHADOW_FANGS: Shadow Fangs
+  THROAT_STABBER: Throat Stabber
+  GREAT_WHITE_CLAW: Great White Claw
+  THRESHER_CLAW: Thresher Claw
+  TERROR_CLAW: Terror Claw
+  FLAYING_KNIFE: Flaying Knife
+  POIGNARD: Poignard
+  GLASS_SHANK: Glass Shank
+  GUTTING_KNIFE: Gutting Knife
+  TRISULA: Trisula
+  HOLLOWPOINT_DAGGER: Hollowpoint Dagger
+  SKINNING_KNIFE: Skinning Knife
+  AMBUSHER: Ambusher
+  SAI: Sai
+  PRONG_DAGGER: Prong Dagger
+  STILETTO: Stiletto
+  PNEUMATIC_DAGGER: Pneumatic Dagger
+  PRESSURISED_DAGGER: Pressurised Dagger
+  GOLDEN_KRIS: Golden Kris
+  FLICKERFLAME_BLADE: Flickerflame Blade
+  EZOMYTE_DAGGER: Ezomyte Dagger
+  COPPER_KRIS: Copper Kris
+  PLATINUM_KRIS: Platinum Kris
+  BOOT_KNIFE: Boot Knife
+  SKEAN: Skean
+  BUTCHER_KNIFE: Butcher Knife
+  SLAUGHTER_KNIFE: Slaughter Knife
+  IMPERIAL_SKEAN: Imperial Skean
+  CARVING_KNIFE: Carving Knife
+  ROYAL_SKEAN: Royal Skean
+  FIEND_DAGGER: Fiend Dagger
+  DEMON_DAGGER: Demon Dagger
+  IMP_DAGGER: Imp Dagger
+  INFERNAL_BLADE: Infernal Blade
+  FLASHFIRE_BLADE: Flashfire Blade
+  BOOT_BLADE: Boot Blade
+  CONGREGATOR_WAND: Congregator Wand
+  QUARTZ_WAND: Quartz Wand
+  DRIFTWOOD_WAND: Driftwood Wand
+  ASSEMBLER_WAND: Assembler Wand
+  CRYSTAL_WAND: Crystal Wand
+  ACCUMULATOR_WAND: Accumulator Wand
+  CONVOKING_WAND: Convoking Wand
+  OPAL_WAND: Opal Wand
+  PROPHECY_WAND: Prophecy Wand
+  SAGE_WAND: Sage Wand
+  DEMONS_HORN: Demon's Horn
+  CARVED_WAND: Carved Wand
+  TORNADO_WAND: Tornado Wand
+  FAUNS_HORN: Faun's Horn
+  SERPENT_WAND: Serpent Wand
+  SPIRALED_WAND: Spiraled Wand
+  HEATHEN_WAND: Heathen Wand
+  PROFANE_WAND: Profane Wand
+  ENGRAVED_WAND: Engraved Wand
+  PAGAN_WAND: Pagan Wand
+  GOATS_HORN: Goat's Horn
+  OMEN_WAND: Omen Wand
+  IMBUED_WAND: Imbued Wand
+  BATTERY_STAFF: Battery Staff
+  ECLIPSE_STAFF: Eclipse Staff
+  QUARTERSTAFF: Quarterstaff
+  MOON_STAFF: Moon Staff
+  LATHI: Lathi
+  RECIPROCATION_STAFF: Reciprocation Staff
+  PRIMORDIAL_STAFF: Primordial Staff
+  IMPERIAL_STAFF: Imperial Staff
+  TRANSFORMER_STAFF: Transformer Staff
+  ROYAL_STAFF: Royal Staff
+  GNARLED_BRANCH: Gnarled Branch
+  PRIMITIVE_STAFF: Primitive Staff
+  WOODFUL_STAFF: Woodful Staff
+  LONG_STAFF: Long Staff
+  HIGHBORN_STAFF: Highborn Staff
+  CRESCENT_STAFF: Crescent Staff
+  SERPENTINE_STAFF: Serpentine Staff
+  EZOMYTE_STAFF: Ezomyte Staff
+  EVENTUALITY_ROD: Eventuality Rod
+  IRON_STAFF: Iron Staff
+  POTENTIALITY_ROD: Potentiality Rod
+  COILED_STAFF: Coiled Staff
+  MILITARY_STAFF: Military Staff
+  VILE_STAFF: Vile Staff
+  FOUL_STAFF: Foul Staff
+  JUDGEMENT_STAFF: Judgement Staff
+  MAELSTROM_STAFF: Maelström Staff
+  CAPACITY_ROD: Capacity Rod
+  COBALT: Cobalt Jewel
+  CRIMSON: Crimson Jewel
+  VIRIDIAN: Viridian Jewel
+  MUREROUS: Murderous Eye Jewel
+  GHASTLY: Ghastly Eye Jewel
+  SEARCHING: Searching Eye Jewel
+  HYPNOTIC: Hypnotic Eye Jewel
+  BUNKER: Bunker
+  RECORD: Records Office
+  MANSION: Mansion
+  SMUGGLER: Smuggler's Den
+  UNDERBELLY: Underbelly
+  LABORATORY: Laboratory
+  PROHIBITED: Prohibited Library
+  REPOSITORY: Repository
+  TUNNELS: Tunnels
+  IRONWOOD: Ironwood Tincture
+  PRISMATIC: Prismatic Tincture
+  ROSETHORN: Rosethorn Tincture
+  ASHBARK: Ashbark Tincture
+  BOREALWOOD: Borealwood Tincture
+  FULGURITE: Fulgurite Tincture
+  BLOOD: Blood Sap Tincture
+  POISONBERRY: Poisonberry Tincture
+  SPOREBLOOM: Sporebloom Tincture
+  OAKBRANCH: Oakbranch Tincture
+  LOGBOOK: Expedition Logbook

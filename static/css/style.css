@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Fontin';
+    src: url('/static/fonts/Fontin-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Fontin', sans-serif;
+    background-color: #141414;
+    margin: 20px
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.collapsible {
+    font-family: 'Fontin', sans-serif;
+    background-color: #777;
+    color: #f2c462;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 8px 18px 8px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #6b6b6b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item {
+    padding: 4px 0;
+    color: #a38d6d;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #3b3a3a;
+    display: flex;
+}
+
+.item .ilev {
+    margin: 0 0 0 auto;
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.obtained {
+    color: #12df12;
+}
+
+.tab {
+    overflow: hidden;
+    border: 2px solid #734e32;
+    background-color: #212321;
+    border-radius: 5px;
+}
+
+.tab button {
+    font-family: 'Fontin', sans-serif;
+    background-color: inherit;
+    color: #f2c462;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #734e32;
+}
+
+.tab button.active {
+    background-color: #734e32;
+}
+
+.tabcontent {
+    display: none;
+    padding: 12px 12px;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #a38d6d;
+    background-color: #202020;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.section-container {
+    width: 19%;
+    margin-bottom: 10px;
+}
+
+.filter_text {
+    display: flex;
+    margin: 0 auto;
+    width: 20vw;
+    min-width: 10em;
+    max-width: 20em;
+    border: 1px solid #807562;
+    border-radius: 4px;
+    padding: 0 32px 0 0.8em;
+    height: 24px;
+    font-size: 14px;
+    color: #fff;
+    background: #332f2f;
+}
+
+.obtained_filter {
+    display: flex;
+    justify-content: center; /* Center the labels horizontally */
+    margin: 0 auto; /* Center the div and add margin */
+    padding: 15px;
+    min-width: 5em;
+    width: 20vw;
+    max-width: 20em;
+    gap: 20px; /* Add space between the labels */
+    color: #a38d6d;
+}
+
+.obtained_filter label {
+    display: flex;
+    align-items: center; /* Center the checkbox and label text vertically */
+    padding: 0 5px;
+}
+
+/* Hide the default checkbox */
+.obtained_filter input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox */
+.obtained_filter label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 5px;
+    position: relative;
+}
+
+.obtained_filter label::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #807562;
+    border-radius: 4px;
+    background: #332f2f;
+    margin-right: 5px;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+/* Change the color of the custom checkbox when checked */
+.obtained_filter input[type="checkbox"]:checked + span::before {
+    background: #807562;
+    border-color: #807562;
+}
+
+/* Add a checkmark */
+.obtained_filter input[type="checkbox"]:checked + span::after {
+    content: '✔';
+    position: absolute;
+    left: 9px;
+    top: 1px;
+    font-size: 12px;
+    color: #f2c462;
+    pointer-events: none; /* Ensure the checkmark does not interfere with clicks */
+}
+
+/* Hover effect for the custom checkbox */
+.obtained_filter label:hover::before {
+    border-color: #b5a590;
+}
+
+.filter_section {
+    display: flex;
+}
+
+.collapse_all {
+    position: absolute;
+    right: 35px;
+    color: #f2c462;
+    font-family: 'Fontin', sans-serif;
+    background-color: #212321;
+    padding: 5px;
+    border-style: none;
+}
+
+.expand_all {
+    position: absolute;
+    right: 35px;
+    top: 120px;
+    color: #f2c462;
+    font-family: 'Fontin', sans-serif;
+    background-color: #212321;
+    padding: 5px;
+    border-style: none;
+}
+
+.reset_data {
+    position: absolute;
+    right: 35px;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSF Trade</title>
+    <link rel="stylesheet" href="/static/css/style.css?v=1.11">
+    <link rel="icon" href="/static/logo.ico" type="image/x-icon">
+    <script type="text/javascript" src="/static/js/web.js?v=1.23"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js?v=1.0"></script>
+</head>
+<body onload="document.getElementById('defaultOpen').click();">
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Currency')" id="defaultOpen">Currency</button>
+        <button class="tablinks" onclick="openTab(event, 'Crafting')">Crafting</button>
+        <button class="tablinks" onclick="openTab(event, 'Base')">Bases</button>
+        <button class="tablinks" onclick="openTab(event, 'Uniques')">Uniques</button>
+        <button class="tablinks" onclick="openTab(event, 'Cards')">Cards</button>
+        <button class="tablinks" onclick="openTab(event, 'Fragments')">Fragments</button>
+        <button class="tablinks" onclick="openTab(event, 'Maps')">Maps</button>
+        <button class="tablinks" onclick="openTab(event, 'Flasks')">Flasks</button>
+        <button class="tablinks" onclick="openTab(event, 'Clusters')">Clusters</button>
+        <button class="tablinks" onclick="openTab(event, 'Gems')">Gems</button>
+        <button class="tablinks" onclick="openTab(event, 'Misc')">Misc</button>
+        <button class="tablinks" onclick="openTab(event, 'Settings')">Settings</button>
+    </div>
+
+    <div id="Currency" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('currency', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('currency')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('currency')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('currency', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('currency', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="currency"></div>
+    </div>
+    
+    <div id="Crafting" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('crafting', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('crafting')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('crafting')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('crafting', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('crafting', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="crafting"></div>
+    </div>
+
+    <div id="Base" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('base', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('base')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('base')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('base', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('base', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="base"></div>
+    </div>
+    
+    <div id="Uniques" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('uniques', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('uniques')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('uniques')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('uniques', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('uniques', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="uniques"></div>
+    </div>
+    
+    <div id="Cards" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('cards', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('cards')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('cards')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('cards', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('cards', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="cards"></div>
+    </div>
+    
+    <div id="Fragments" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('fragments', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('fragments')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('fragments')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('fragments', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('fragments', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="fragments"></div>
+    </div>
+    
+    <div id="Maps" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('maps', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('maps')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('maps')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('maps', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('maps', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="maps"></div>
+    </div>
+    
+    <div id="Flasks" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('flasks', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('flasks')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('flasks')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('flasks', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('flasks', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="flasks"></div>
+    </div>
+    
+    <div id="Clusters" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('clusters', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('clusters')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('clusters')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('clusters', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('clusters', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="clusters"></div>
+    </div>
+    
+    <div id="Gems" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('gems', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('gems')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('gems')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('gems', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('gems', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="gems"></div>
+    </div>
+    
+    <div id="Misc" class="tabcontent">
+        <div class="filter_section">
+            <input class="filter_text" type="text" placeholder="Filter items..." onkeyup="debouncedFilterItems('misc', this.value)">
+            <button class="collapse_all" onclick="collapseAllSections('misc')">Collapse All</button>
+            <button class="expand_all" onclick="expandAllSections('misc')">Expand All</button>
+        </div>
+        <div class="obtained_filter">
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('misc', 'showObtained')">
+                <span>Obtained</span>
+            </label>
+            <label>
+                <input type="checkbox" checked onchange="toggleFilter('misc', 'showNotObtained')">
+                <span>Not Obtained</span>
+            </label>
+        </div>
+        <div class="tab-inner-content" id="misc"></div>
+    </div>
+    
+
+    <div id="Settings" class="tabcontent">
+        <p>Current League Name: <span id="currentLeagueName"></span></p>
+        <button onclick="openModal()">Add Bulk Data</button>
+        <button class="reset_data" onclick="resetAllData()">Reset All Data</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Add Data</h2>
+            <form onsubmit="event.preventDefault(); addItems();">
+                <label for="names">Item Names (one per line):</label><br>
+                <textarea id="names" rows="4" cols="50"></textarea><br><br>
+
+                <label for="itemType">Item Type:</label><br>
+                <input type="text" id="itemType"><br><br>
+
+                <label for="itemClass">Item Class:</label><br>
+                <input type="text" id="itemClass"><br><br>
+
+                <label for="subClass">Sub Class:</label><br>
+                <input type="text" id="subClass"><br><br>
+
+                <label for="rarity">Rarity:</label><br>
+                <input type="text" id="rarity"><br><br>
+
+                <button type="submit">Add Items</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
